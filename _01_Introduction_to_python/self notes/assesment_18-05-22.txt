@@ -1,0 +1,135 @@
+1.Why Python?applications of Python?What are the key features of Python?
+-Python is a general purpose high level programming language.
+-Python is recommended as first programming language for beginners.
+-Guido developed Python language by taking almost all programming features from
+different languages.
+Applications:
+We can use everywhere. The most common important application areas are
+1) For developing Desktop Applications
+2) For developing web Applications
+3) For developing database Applications
+4) For Network Programming
+5) For developing games
+6) For Data Analysis Applications
+7) For Machine Learning
+8) For developing Artificial Intelligence Applications
+9) For IoT
+key features:
+1) Simple and easy to learn:
+2) Freeware and Open Source:
+3) High Level Programming language:
+4) Platform Independent:
+5) Portability:
+6) Dynamically Typed:
+7) Both Procedure Oriented and Object Oriented:
+8) Interpreted:
+9) Extensible:
+10) Embedded:
+11) Extensive Library:
+
+2. Python is an interpreted language explain? How is Python an interpreted language?How do we interpret Python?
+Interpreted:
+ We are not required to compile Python programs explicitly. Internally Python
+interpreter will take care that compilation.
+ If compilation fails interpreter raised syntax errors. Once compilation success then
+PVM (Python Virtual Machine) is responsible to execute.
+
+3.What do you mean by Python literals?
+-literals are a notation for representing a fixed value in source code.
+-They can also be defined as raw value or data given in variables or constants.
+Python has different types of literals.
+
+String literals
+Numeric literals
+Boolean literals
+Literal Collections
+Special literals
+
+
+4.What type of language is python?
+-Python is a multi-paradigm programming language.
+
+5.What is the namespace in Python?
+The Python global namespace is created when modules are imported and it lasts up to the module ends.
+It contains all the names of modules that are imported into the project.
+In this example, I have defined function vehicle namespace, Bicycle namespace is defined outside the function() vehicle, so the Bicycle = “hero” is a global namespace.
+It can also be printed inside the function.
+
+6.What are local variables and global variables in Python?
+Global variables are those which are not defined inside any function and have a global scope whereas local variables are those which are defined inside a function and its scope is limited to that function only.
+In other words, we can say that local variables are accessible only inside the function in which it was initialized whereas the global variables are accessible throughout the program and inside every function.
+Local variables are those which are initialized inside a function and belongs only to that particular function. It cannot be accessed anywhere outside the function. Let’s see how to create a local variable.
+
+7.List the common built-in datatypes in Python?
+
+Python has the following data types built-in by default, in these categories:
+
+Text Type:	str
+Numeric Types:	int, float, complex
+Sequence Types:	list, tuple, range
+Mapping Type:	dict
+Set Types:	set, frozenset
+Boolean Type:	bool
+Binary Types:	bytes, bytearray, memoryview
+
+8.Explain all the keywords in Python?
+1	and	This is a logical operator it returns true if both the operands are true else return false.
+2	Or	This is also a logical operator it returns true if anyone operand is true else return false.
+3	not	This is again a logical operator it returns True if the operand is false else return false.
+4	if	This is used to make a conditional statement.
+5	elif	Elif is a condition statement used with if statement the elif statement is executed if the previous conditions were not true
+6	else	Else is used with if and elif conditional statement the else block is executed if the given condition is not true.
+7	for	This is created for a loop.
+8	while	This keyword is used to create a while loop.
+9	break	This is used to terminate the loop.
+10	as	This is used to create an alternative.
+11	def	It helps us to define functions.
+12	lambda	It used to define the anonymous function.
+13	pass	This is a null statement that means it will do nothing.
+14	return	It will return a value and exit the function.
+15	True	This is a boolean value.
+16	False	This is also a boolean value.
+17	try	It makes a try-except statement.
+18	with	The with keyword is used to simplify exception handling.
+19	assert	This function is used for debugging purposes. Usually used to check the correctness of code
+20	class	It helps us to define a class.
+21	continue	It continues to the next iteration of a loop
+22	del	It deletes a reference to an object.
+23	except	Used with exceptions, what to do when an exception occurs
+24	finally	Finally is use with exceptions, a block of code that will be executed no matter if there is an exception or not.
+25	from	The form is used to import specific parts of any module.
+26	global	This declares a global variable.
+27	import	This is used to import a module.
+28	in	It’s used to check if a value is present in a list, tuple, etc, or not.
+29	is	This is used to check if the two variables are equal or not.
+30	None	This is a special constant used to denote a null value or avoid. It’s important to remember, 0, any empty container(e.g empty list) do not compute to None
+31	nonlocal	It’s declared a non-local variable.
+32	raise	This raises an exception
+33	yield	It’s ends a function and returns a generator.
+
+9.What are comments and how can you add comments in Python?
+Comments in Python are the lines in the code that are ignored by the interpreter during the execution of the program. Comments enhance the readability of the code and help the programmers to understand the code very carefully. There are three types of comments in Python –
+
+Single line Comments
+Multiline Comments
+Docstring Comments
+
+10.How to check the Python Version in CMD?
+python --version
+
+11. How is memory managed in Python?
+-Memory in Python is managed by Python private heap space. All Python objects and data structures are located in a private heap. This private heap is taken care of by Python Interpreter itself, and a programmer doesn’t have access to this private heap.
+Python memory manager takes care of the allocation of Python private heap space.
+Memory for Python private heap space is made available by Python’s in-built garbage collector, which recycles and frees up all the unused memory.
+
+12. how the variable assignment happens in python a=10
+Think of a variable as a name attached to a particular object. In Python, variables need not be declared or defined in advance, as is the case in many other programming languages. To create a variable, you just assign it a value and then start using it.
+Assignment is done with a single equals sign (=).
+
+
+
+
+
+
+
+
